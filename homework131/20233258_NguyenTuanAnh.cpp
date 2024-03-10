@@ -2,9 +2,9 @@
 // MSSV : 20233258
 // Họ và tên : Nguyễn Tuấn Anh 
 // code không sử dụng string , mảng array .
-// code C++ --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/Project2/20233258_NguyenTuanAnh.cpp
-// code C   --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/Project2/20233258_NguyenTuanAnh.c
-// code Python --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/Project2/20233258_NguyenTuanAnh.py
+// code C++ --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/homework131/20233258_NguyenTuanAnh.cpp
+// code C   --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/homework131/20233258_NguyenTuanAnh.c
+// code Python --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/homework131/20233258_NguyenTuanAnh.py
 #include<iostream>
 using namespace std;
 int main(){
