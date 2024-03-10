@@ -1,5 +1,11 @@
+// Bài tập tổng hơp 13.1
+// MSSV : 20233258
+// Họ và tên : Nguyễn Tuấn Anh 
+// code không sử dụng string , mảng array .
+// code C++ --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/Project2/20233258_NguyenTuanAnh.cpp
+// code C   --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/Project2/20233258_NguyenTuanAnh.c
+// code Python --> https://github.com/ntuanh/Baitap_C_Cpp/blob/homework131/Project2/20233258_NguyenTuanAnh.py
 #include<iostream>
-#include<iomanip>
 using namespace std;
 int main(){
 /********** 13.1.01. **********/
@@ -60,9 +66,9 @@ cout<<endl;*/
 /*long long mx= LLONG_MIN, mn = LLONG_MAX;
 long long x;
 while(cin>>x){
+    if(x == 0)break;
     mx = max( mx, x );
     mn = min( mn, x);
-    if(x == 0)break;
 }
 cout<<"so lon nhat la " << mx<<endl;
 cout<<"so be nhat la "<<mn <<endl;
@@ -137,7 +143,8 @@ cout<<"gia tri can bac 2 cua " <<x<<" la : "<<b;*/
 
 /********** 13.1.12. **********/
 /*int n ;
-double e = 1E-8 ,a , b, c, x=1234;
+double e = 1E-8 ,a , b, c, x=1, y=2, z=3, t=4;
+x= 1000*x+100*y+10*z+t;
 n = 0;
 a =x /2 ;
 b= 0;
@@ -194,11 +201,9 @@ f2=90;
     /*for(char i='A'; i<='Z'; i++){ 
         cout<<i<<" "<<int(i)<<endl;
     }
-    cout<<endl;
     for(char i='a'; i<='z'; i++){
         cout<<i<<" "<<int(i)<<endl;
-    }
-    cout<<endl;   
+    }  
     for(char i='0'; i<='9'; i++){
         cout<<i<<" "<<int(i)<<endl;
     }*/
